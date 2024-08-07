@@ -1,0 +1,14 @@
+.page{
+    padding: 0 12%;
+    @media (max-width: 1024px) {
+        padding: 0 8%;
+    }
+}
+.header{
+    padding-left: 12%;
+    padding-right: 12%;
+    @media (max-width: 1024px) {
+        padding-left: 8%;
+        padding-right: 8%;    
+    }
+}
