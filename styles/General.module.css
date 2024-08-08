@@ -1,14 +1,14 @@
 .page{
     padding: 0 12%;
     @media (max-width: 1024px) {
-        padding: 0 15px;
+        padding: 0 10px;
     }
 }
 .header{
     padding-left: 12%;
     padding-right: 12%;
     @media (max-width: 1024px) {
-        padding-left: 15px;
-        padding-right: 15px;    
+        padding-left: 10px;
+        padding-right: 10x;    
     }
 }
