@@ -97,28 +97,28 @@ export const ExpItem = ({ title, description, type, date }) => {
 const project_items = [
     {
         id:1,
-        title: "Railtrans",
-        description: "A simple form for a subway ticket , using Javascript ! ",
-        link: "https://fiderana19.github.io/railtrans/"
+        title: "I-train frontend",
+        description: "I-train frontend coded with React Native ! ",
+        link: "https://github.com/fiderana19/itrain-front"
     },
     {
         id:2,
-        title: "Footballer",
-        description: "A footballer website , coded in html and css ! ",
-        link: "https://fiderana19.github.io/footballer/"
+        title: "I-train backend",
+        description: "I-train backend coded with ExpressJS ! ",
+        link: "https://github.com/fiderana19/itrain-back"
     },
     {
         id:3,
         title: "Portfolio",
-        description: "My old portfolio , coded in html and css ! ",
-        link: "https://fiderana19.github.io/portfolio/"
+        description: "My portfolio coded with NextJS ! ",
+        link: "https://github.com/fiderana19/fider-portfolio"
     }
     ,
     {
         id:4,
-        title: "LinGrad",
-        description: "A linear gradient generator , coded in html and css and Javascript ! ",
-        link: "https://fiderana19.github.io/lingrad/"
+        title: "Blog",
+        description: "A blog apllication coded with Laravel ! ",
+        link: "https://github.com/fiderana19/lara-blog"
     }
 ]
 
