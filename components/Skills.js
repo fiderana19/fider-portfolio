@@ -46,7 +46,7 @@ export default function Skills() {
                 </div>
                 <div className="md:w-1/4 w-full md:mt-0 mt-12">
                     <div className="h-18">
-                        <Image src={NodeLogo} className="w-16 h-auto" alt="Reatc logo" />
+                        <Image src={JavaScriptLogo} className="w-16 h-auto" alt="Reatc logo" />
                     </div>
                     <div className="my-4 font-medium text-gray-300">My prefered langage to code is 
                         <span className="w-20 whitespace-nowrap bg-darklg cursor-pointer hover:bg-background transition-colors border inline border-gray-600 boder-opacity-25 mx-2 px-2  rounded py-0">
