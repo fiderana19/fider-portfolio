@@ -1,7 +1,7 @@
 import Image from "next/image";
 import ReactLogo from '../public/images/react-js-icon.png'
 import ExpressLogo from '../public/images/express-js-icon.png'
-import NodeLogo from '../public/images/node-js-icon.png'
+import JavaScriptLogo from '../public/images/javascript-programming-language-icon.png'
 import MongoDBLogo from '../public/images/mongodb-icon.png'
 import VueLogo from '../public/images/vue-js-icon.png'
 import OracleLogo from '../public/images/oracle-icon.png'
@@ -50,8 +50,8 @@ export default function Skills() {
                     </div>
                     <div className="my-4 font-medium text-gray-300">My prefered langage to code is 
                         <span className="w-20 whitespace-nowrap bg-darklg cursor-pointer hover:bg-background transition-colors border inline border-gray-600 boder-opacity-25 mx-2 px-2  rounded py-0">
-                            <Image src={NodeLogo} className="w-3 h-auto mr-2 inline" alt="Reatc logo" />
-                            <span className=" text-xs font-medium">NodeJS</span>
+                            <Image src={JavaScriptLogo} className="w-3 h-auto mr-2 inline" alt="Reatc logo" />
+                            <span className=" text-xs font-medium">JavaScript</span>
                         </span>
                         ,and I like other langage as
                         <span className="w-20 whitespace-nowrap bg-darklg cursor-pointer hover:bg-background transition-colors border inline border-gray-600 boder-opacity-25 mx-2 px-2  rounded py-0">
