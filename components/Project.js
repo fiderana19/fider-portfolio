@@ -97,15 +97,15 @@ export const ExpItem = ({ title, description, type, date }) => {
 const project_items = [
     {
         id:1,
-        title: "I-train frontend",
-        description: "I-train frontend coded with React Native ! ",
-        link: "https://github.com/fiderana19/itrain-front"
+        title: "WBS UI",
+        description: "WBS application UI coded with ReactJS ! ",
+        link: "https://github.com/fiderana19/wbs-front"
     },
     {
         id:2,
-        title: "I-train backend",
-        description: "I-train backend coded with ExpressJS ! ",
-        link: "https://github.com/fiderana19/itrain-back"
+        title: "LMD UI",
+        description: "LMD application backend coded with ReactJS ! ",
+        link: "https://github.com/fiderana19/wbs-back"
     },
     {
         id:3,
@@ -116,9 +116,9 @@ const project_items = [
     ,
     {
         id:4,
-        title: "Blog",
-        description: "A blog apllication coded with Laravel ! ",
-        link: "https://github.com/fiderana19/lara-blog"
+        title: "WBS backend",
+        description: "WBS backend coded with NestJS ! ",
+        link: "https://github.com/fiderana19/wbs-backend"
     }
 ]
 
