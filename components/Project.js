@@ -1,4 +1,5 @@
-import Wbs from '../public/images/wbs.jpg'
+import Wbs from '../public/images/wbs.jpg';
+import Mininter from '../public/images/mid-logo.jpg';
 import Img from "../public/images/profile.jpg"
 import LinkedinIcon from '../public/images/linkedin-icon.jpg'
 import XIcon from '../public/images/x-icon.jpg'
@@ -25,7 +26,7 @@ export default function Project() {
                         <div className="text-lg text-gray-300 font-medium">Experiences </div>
                         {
                             exp.map((xp) => {
-                                return <ExpItem key={xp.id} title={xp.title} description={xp.description} link={xp.link} type={xp.type} date={xp.date} />
+                                return <ExpItem key={xp.id} title={xp.title} image={xp.link} description={xp.description} link={xp.link} type={xp.type} date={xp.date} />
                             })
                         }
                     </div>
@@ -76,10 +77,10 @@ export const ProjectItem = ({ title, description, link }) => {
         </Link>
     )
 }
-export const ExpItem = ({ title, description, type, date }) => {
+export const ExpItem = ({ title, description, type, date, image }) => {
     return (
         <div className="hover:bg-darklg cursor-pointer flex items-center p-1 my-2 rounded transition-colors">
-            <Image src={Wbs} className="rounded" width={50} height={50} alt='logo' />
+            <Image src={image} className="rounded" width={50} height={50} alt='logo' />
             <div className="items-center ml-4">
                 <div className="font-medium flex items-center justify-between">
                     <div className="flex items-center"> 
@@ -125,10 +126,18 @@ const project_items = [
 const exp = [
     {
         id:1,
+        title:"MININTER",
+        type:"Stage",
+        date:"Aug - Nov 2024",
+        description:"React-Nest Developper",
+        link: Mininter
+    },
+    {
+        id:2,
         title:"WBS",
         type:"Stage",
         date:"Aug - Nov 2023",
-        description:"MERN Stack Developper",
-        link: '../public/images/wbs.jpg'
+        description:"React-Nest Developper",
+        link: Wbs
     }
 ]
