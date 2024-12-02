@@ -18,7 +18,7 @@ export default function Profile() {
                     <span className=" text-xs font-medium">Madagascar</span>
                 </span>.
                 </div>
-                <Link href={`/pdf/cv-fiderana-vr.pdf`} download className="flex w-full">
+                <Link href={`/pdf/cv-fiderana-vr.pdf`} download className="flex w-max">
                     <div className=" bg-darklg whitespace-nowrap cursor-pointer hover:bg-background transition-colors border border-gray-600 boder-opacity-25 px-4 my-4 rounded py-1">
                         <Image src={DownloadIcon} className="w-4 h-auto mr-2 inline" alt="Download icon" />
                         <span className=" text-md font-medium">Download my CV</span>
