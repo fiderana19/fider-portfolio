@@ -10,8 +10,8 @@ export default function Profile() {
         <div className={`${General.page} md:flex block justify-between h-full items-center`}>
             <div className="flex-[2] md:my-16 md:py-0 pt-32 ">
                 <div className="lg:text-5xl sm:text-4xl text-3xl font-bold">Antsa Fiderana ANDRIAHERILANTO</div>
-                <div className="text-2xl my-4 font-medium text-bluecolor">MERN Stack Developper</div>
-                <div className="text-md text-gray-400">I'm a MERN Stack Developper !
+                <div className="text-2xl my-4 font-medium text-bluecolor">Full-stack React-Nest Developper</div>
+                <div className="text-md text-gray-400">I'm a Full-stack React-Nest Developper !
                 Living in 
                 <span className="w-20 bg-darklg whitespace-nowrap cursor-pointer hover:bg-background transition-colors border inline border-gray-600 boder-opacity-25 mx-2 px-2  rounded py-0">
                     <Image src={MadagascarFlag} className="w-4 h-auto mr-2 inline" alt="Reatc logo" />

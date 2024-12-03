@@ -24,8 +24,8 @@ export default function Skills() {
             <div className="text-2xl my-4 mb-10 font-medium">I love working on ... </div>
             <div className="md:flex block gap-10">
                 <div className="md:w-1/4 w-full md:mt-0 mt-12">
-                    <div className="h-18">
-                        <Image src={ReactLogo} className="w-20 h-auto" alt="Reatc logo" />
+                    <div className="h-16">
+                        <Image src={ReactLogo} className="h-16 w-auto" alt="Reatc logo" />
                     </div>
                     <p className="my-4 font-medium text-gray-300">My main framework as frontend is 
                         <span className="w-20 whitespace-nowrap bg-darklg cursor-pointer hover:bg-background transition-colors border inline border-gray-600 boder-opacity-25 mx-2 px-2  rounded py-0">
@@ -45,8 +45,8 @@ export default function Skills() {
                     </p>
                 </div>
                 <div className="md:w-1/4 w-full md:mt-0 mt-12">
-                    <div className="h-18">
-                        <Image src={JavaScriptLogo} className="w-16 h-auto" alt="Reatc logo" />
+                    <div className="h-16">
+                        <Image src={JavaScriptLogo} className="h-16 w-auto" alt="Reatc logo" />
                     </div>
                     <div className="my-4 font-medium text-gray-300">My prefered langage to code is 
                         <span className="w-20 whitespace-nowrap bg-darklg cursor-pointer hover:bg-background transition-colors border inline border-gray-600 boder-opacity-25 mx-2 px-2  rounded py-0">
@@ -71,18 +71,18 @@ export default function Skills() {
                     </div>
                 </div>
                 <div className="md:w-1/4 w-full md:mt-0 mt-12">
-                    <div className="h-18">
-                        <Image src={ExpressLogo} className="w-28 h-auto" alt="Reatc logo" />
+                    <div className="h-16">
+                        <Image src={NestLogo} className="h-16 w-auto" alt="Reatc logo" />
                     </div>
                     <div className="my-4 font-medium text-gray-300">My main framework as backend is 
                         <span className="w-20 whitespace-nowrap bg-darklg cursor-pointer hover:bg-background transition-colors border border-gray-600 boder-opacity-25 mx-2 px-2  rounded py-0">
-                            <Image src={ExpressLogo} className="w-3 h-auto mr-2 inline" alt="Reatc logo" />
-                            <span className=" text-xs font-medium">ExpressJS</span>
+                            <Image src={NestLogo} className="w-3 h-auto mr-2 inline" alt="Reatc logo" />
+                            <span className=" text-xs font-medium">NestJS</span>
                         </span>
                         ,and also
                         <span className="w-20 whitespace-nowrap bg-darklg cursor-pointer hover:bg-background transition-colors border inline border-gray-600 boder-opacity-25 mx-2 px-2  rounded py-0">
-                            <Image src={NestLogo} className="w-3 h-auto mr-2 inline" alt="Reatc logo" />
-                            <span className=" text-xs font-medium">NestJS</span>
+                            <Image src={ExpressLogo} className="w-3 h-auto mr-2 inline" alt="Reatc logo" />
+                            <span className=" text-xs font-medium">ExpressJS</span>
                         </span>
                         . I can also code with other backend framework like
                         <span className="w-20 whitespace-nowrap bg-darklg cursor-pointer hover:bg-background transition-colors border inline border-gray-600 boder-opacity-25 mx-2 px-2  rounded py-0">
@@ -92,8 +92,8 @@ export default function Skills() {
                     </div>
                 </div>
                 <div className="md:w-1/4 w-full md:mt-0 mt-12">
-                    <div className="h-18">
-                        <Image src={MongoDBLogo} className="w-7 h-auto" alt="Reatc logo" />
+                    <div className="h-16">
+                        <Image src={MongoDBLogo} className="h-16 w-auto" alt="Reatc logo" />
                     </div>
                     <div className="my-4 font-medium text-gray-300">For database, 
                         <span className="w-20 whitespace-nowrap bg-darklg border cursor-pointer hover:bg-background transition-colors inline border-gray-600 border-opacity-25 mx-2 px-2  rounded py-0">
