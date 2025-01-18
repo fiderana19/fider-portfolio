@@ -14,7 +14,7 @@ export default function Profile() {
                 <div className="text-md text-gray-400">I'm a Full-stack React-Nest Developper !
                 Living in 
                 <span className="w-20 bg-darklg whitespace-nowrap cursor-pointer hover:bg-background transition-colors border inline border-gray-600 boder-opacity-25 mx-2 px-2  rounded py-0">
-                    <Image src={MadagascarFlag} className="w-4 h-auto mr-2 inline" alt="Reatc logo" />
+                    <Image src={MadagascarFlag} className="w-4 h-auto mr-2 inline" alt="Madagascar flag" />
                     <span className=" text-xs font-medium">Madagascar</span>
                 </span>.
                 </div>
