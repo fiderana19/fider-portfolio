@@ -104,9 +104,9 @@ const project_items = [
     },
     {
         id:2,
-        title: "LMD UI",
-        description: "LMD application backend coded with ReactJS ! ",
-        link: "https://github.com/fiderana19/wbs-back"
+        title: "MININTER UI",
+        description: "MININTER UI coded with ReactJS ! ",
+        link: "https://github.com/fiderana19/mid-backend"
     },
     {
         id:3,
@@ -119,7 +119,14 @@ const project_items = [
         id:4,
         title: "WBS backend",
         description: "WBS backend coded with NestJS ! ",
-        link: "https://github.com/fiderana19/wbs-backend"
+        link: "https://github.com/fiderana19/wbs-back"
+    }
+    ,
+    {
+        id:5,
+        title: "MININTER backend",
+        description: "MININTER backend coded with NestJS ! ",
+        link: "https://github.com/fiderana19/mid-backend"
     }
 ]
 
