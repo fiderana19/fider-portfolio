@@ -106,7 +106,7 @@ const project_items = [
         id:2,
         title: "MININTER UI",
         description: "MININTER UI coded with ReactJS ! ",
-        link: "https://github.com/fiderana19/mid-backend"
+        link: "https://github.com/fiderana19/mid-frontend"
     },
     {
         id:3,
