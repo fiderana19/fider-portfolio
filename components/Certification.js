@@ -13,7 +13,7 @@ export default function Certification() {
                 </div>
                 <div className="text-2xl my-4 font-medium">I'm certified on...</div>
                 <div className="lg:flex block gap-3">
-                    <Link href={`https://www.hackerrank.com/certificates/1cc3d8b76334`} className="lg:w-1/2 w-full group transition-colors relative hover:bg-darklg flex items-center p-3 my-4 border border-opacity-25  border-gray-600 bg-darkmd rounded">
+                    <Link href={`https://www.hackerrank.com/certificates/1cc3d8b76334`} target="_blank" rel="noopener noreferrer" className="lg:w-1/2 w-full group transition-colors relative hover:bg-darklg flex items-center p-3 my-4 border border-opacity-25  border-gray-600 bg-darkmd rounded">
                         <div className="relative text-black">
                             <Image src={CertificationIcon} width={50} height={50} alt="Profile pic" className="rounded-full" />
                             <Image src={HackerRankIcon} alt="Linkedin icon" className="rounded-full w-4 h-auto absolute right-0 bottom-0" />
@@ -23,7 +23,7 @@ export default function Certification() {
                             <div className="text-xs">HackerRank</div>
                         </div>
                     </Link>
-                    <Link href={`https://www.hackerrank.com/certificates/d7e331dea93a`} className="lg:w-1/2 w-full group transition-colors relative hover:bg-darklg flex items-center p-3 my-4 border border-opacity-25  border-gray-600 bg-darkmd rounded">
+                    <Link href={`https://www.hackerrank.com/certificates/d7e331dea93a`} target="_blank" rel="noopener noreferrer" className="lg:w-1/2 w-full group transition-colors relative hover:bg-darklg flex items-center p-3 my-4 border border-opacity-25  border-gray-600 bg-darkmd rounded">
                         <div className="relative text-black">
                             <Image src={CertificationIcon} width={50} height={50} alt="Profile pic" className="rounded-full" />
                             <Image src={HackerRankIcon} alt="Linkedin icon" className="rounded-full w-4 h-auto absolute right-0 bottom-0" />

@@ -32,7 +32,7 @@ export default function Project() {
                     </div>
                     <div className="bg-darkmd border border-opacity-25 border-gray-600 p-4 rounded">
                         <div className="text-lg text-gray-300 font-medium">Contact me </div>
-                        <Link href={`https://www.linkedin.com/fiderana-antsa-andriaherilanto/`} className="relative group transition-colors hover:bg-darklg flex items-center p-1 my-4 border border-gray-600 bg-background border-opacity-25 rounded">
+                        <Link href={`https://www.linkedin.com/fiderana-antsa-andriaherilanto/`} target="_blank" rel="noopener noreferrer" className="relative group transition-colors hover:bg-darklg flex items-center p-1 my-4 border border-gray-600 bg-background border-opacity-25 rounded">
                             <div className="relative text-black">
                                 <Image src={Img} alt="Profile pic" width={45} height={45} className="rounded-full" />
                                 <Image src={LinkedinIcon} alt="Linkedin icon" className="rounded-full w-4 h-auto absolute right-0 bottom-0" />
@@ -45,7 +45,7 @@ export default function Project() {
                                 <Image src={ArrowIcon} alt="Arrow Icon" className="w-2 h-auto group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                             </div>
                         </Link>
-                        <Link href={`https://x.com/FideranaAntsa1`} className="relative group transition-colors hover:bg-darklg flex items-center p-1 my-4 border border-gray-600 bg-background border-opacity-25  rounded">
+                        <Link href={`https://x.com/FideranaAntsa1`} target="_blank" rel="noopener noreferrer" className="relative group transition-colors hover:bg-darklg flex items-center p-1 my-4 border border-gray-600 bg-background border-opacity-25  rounded">
                             <div className="relative text-black">
                                 <Image src={Img} alt="Profile pic" width={45} height={45} className="rounded-full" />
                                 <Image src={XIcon} alt="X icon" className="rounded-full w-4 h-auto absolute right-0 bottom-0" />
@@ -60,7 +60,6 @@ export default function Project() {
                         </Link>
                     </div>
                 </div>
-                
             </div>
         </div>
     )
@@ -68,7 +67,7 @@ export default function Project() {
 
 export const ProjectItem = ({ title, description, link }) => {
     return (
-        <Link href={`${link}`} className="hover:bg-darklg transition-colors flex items-center p-1 my-4 rounded">
+        <Link href={`${link}`} target="_blank" rel="noopener noreferrer" className="hover:bg-darklg transition-colors flex items-center p-1 my-4 rounded">
             <Image src={TerminalIcon} alt="Terminal Icon" className="rounded w-14 h-auto" />
             <div className="items-center ml-4">
                 <div className="font-medium">{title}</div>
