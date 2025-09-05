@@ -1,3 +1,4 @@
+import Certification from '@/components/Certification'
 import Contact from '@/components/Contact'
 import Copyright from '@/components/Copyright'
 import Header from '@/components/Header'
@@ -15,6 +16,7 @@ export default function Home() {
       </div>
       <Project />
       <Skills />
+      <Certification />
       <Contact />
       <Copyright />
     </div>
