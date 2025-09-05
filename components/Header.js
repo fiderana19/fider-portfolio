@@ -10,13 +10,13 @@ export default function Header() {
         <div className={`${General.header} fixed top-0 flex justify-between w-full py-4 z-10`}>
             <div className="text-xl cursor-pointer font-medium">Antsa Fiderana.</div>
             <div className="flex items-center gap-2">
-                <Link href="https://www.linkedin.com/in/fiderana-antsa-andriaherilanto/" className=" hover:scale-105 transition-transform">
+                <Link href="https://www.linkedin.com/in/fiderana-antsa-andriaherilanto/" target="_blank" rel="noopener noreferrer" className=" hover:scale-105 transition-transform">
                     <Image src={LinkedinIcon} alt="Linkeidn Icon" className="rounded w-6 h-auto" />
                 </Link>
-                <Link href="https://x.com/FideranaAntsa1" className=" hover:scale-105 transition-transform">
+                <Link href="https://x.com/FideranaAntsa1" target="_blank" rel="noopener noreferrer" className=" hover:scale-105 transition-transform">
                     <Image src={XIcon} alt="Instagram Icon" className="rounded w-6 h-auto" />
                 </Link>
-                <Link href="https://github.com/fiderana19/" className=" hover:scale-105 transition-transform" >
+                <Link href="https://github.com/fiderana19/" target="_blank" rel="noopener noreferrer" className=" hover:scale-105 transition-transform" >
                     <Image src={GithubIcon} alt="Instagram Icon" className="rounded w-6 h-auto" />
                 </Link>
             </div>
