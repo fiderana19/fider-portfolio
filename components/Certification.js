@@ -57,18 +57,6 @@ export default function Certification() {
                         </div>
                     </Link>
                 </div>
-                <div className="lg:flex block gap-3">
-                    <Link href={`https://www.credly.com/badges/f0334fd8-acd5-4f2f-b91f-1ed96540ce07/public_url`} target="_blank" rel="noopener noreferrer" className="lg:w-1/2 w-full group transition-colors relative hover:bg-darklg flex items-center p-3 my-1 border border-opacity-25  border-gray-600 bg-darkmd rounded">
-                        <div className="relative text-black">
-                            <Image src={CertificationIcon} width={50} height={50} alt="Profile pic" className="rounded-full" />
-                            <Image src={CCNAIcon} alt="CCNAIcon icon" className="rounded-full w-4 h-auto absolute right-0 bottom-0" />
-                        </div>
-                        <div className="items-center ml-4">
-                            <div className="font-medium">JavaScript Essentials 1</div>
-                            <div className="text-xs">CCNA</div>
-                        </div>
-                    </Link>
-                </div>
             </div>
         </div>
     )
