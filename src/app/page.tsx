@@ -14,9 +14,9 @@ export default function Home() {
         <div className="mx-auto max-w-5xl px-4 py-20">
           <div className="mb-12">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Skills</h2>
-            <p className="mt-4 text-lg text-zinc-700 dark:text-zinc-400">
-              Technologies and tools I work with on a daily basis.
-            </p>
+<p className="mt-4 text-lg text-zinc-400">
+               Technologies and tools I work with on a daily basis.
+             </p>
           </div>
           <SkillsShowcase />
         </div>
@@ -26,9 +26,9 @@ export default function Home() {
         <div className="mx-auto max-w-5xl px-4 py-20">
           <div className="mb-12">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Experience</h2>
-            <p className="mt-4 text-lg text-zinc-700 dark:text-zinc-400">
-              My professional journey.
-            </p>
+<p className="mt-4 text-lg text-zinc-400">
+               My professional journey.
+             </p>
           </div>
           <Timeline experiences={experiences.filter((e) => e.type === "internship")} />
         </div>
@@ -37,9 +37,9 @@ export default function Home() {
         <div className="mx-auto max-w-5xl px-4 py-20">
           <div className="mb-12">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Education</h2>
-            <p className="mt-4 text-lg text-zinc-700 dark:text-zinc-400">
-              My academic background.
-            </p>
+<p className="mt-4 text-lg text-zinc-400">
+               My academic background.
+             </p>
           </div>
           <Timeline experiences={experiences.filter((e) => e.type === "education")} />
         </div>

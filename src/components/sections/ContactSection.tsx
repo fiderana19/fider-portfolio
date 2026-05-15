@@ -8,7 +8,7 @@ function SocialButton({ href, label, children }: { href: string; label: string; 
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center gap-2 rounded-xl border-zinc-900 bg-zinc-900 px-4 py-2.5 text-sm font-medium text-white transition-all hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-zinc-500/20 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800"
+      className="inline-flex items-center gap-2 rounded-xl border-zinc-700 bg-zinc-900 px-4 py-2.5 text-sm font-medium text-zinc-300 transition-all hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-zinc-500/20"
     >
       {children}
       {label}
@@ -20,7 +20,7 @@ function MailButton({ href, label, children }: { href: string; label: string; ch
   return (
     <a
       href={href}
-      className="inline-flex items-center gap-2 rounded-xl border-zinc-900 bg-zinc-900 px-4 py-2.5 text-sm font-medium text-white transition-all hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-zinc-500/20 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800"
+      className="inline-flex items-center gap-2 rounded-xl border-zinc-700 bg-zinc-900 px-4 py-2.5 text-sm font-medium text-zinc-300 transition-all hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-zinc-500/20"
     >
       {children}
       {label}
@@ -34,41 +34,41 @@ export function ContactSection() {
       <div className="mx-auto max-w-5xl px-4 py-20">
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Contact</h2>
-          <p className="mt-4 text-lg text-zinc-700 dark:text-zinc-400">
+          <p className="mt-4 text-lg text-zinc-400">
             Have a question or a project in mind? Feel free to reach out.
           </p>
         </div>
 
         <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
           <div>
-            <label htmlFor="name" className="block text-sm font-medium text-zinc-700 dark:text-zinc-300">Name</label>
+            <label htmlFor="name" className="block text-sm font-medium text-zinc-300">Name</label>
             <input
               type="text"
               id="name"
               required
-              className="mt-1 block w-full rounded-xl border border-zinc-400 bg-white px-4 py-2.5 text-sm text-zinc-900 placeholder-zinc-400 focus:border-zinc-500 focus:outline-none focus:ring-2 focus:ring-zinc-500/20 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:placeholder-zinc-500"
+              className="mt-1 block w-full rounded-xl border border-zinc-700 bg-zinc-900 px-4 py-2.5 text-sm text-zinc-100 placeholder-zinc-500 focus:border-zinc-500 focus:outline-none focus:ring-2 focus:ring-zinc-500/20"
               placeholder="Your name"
             />
           </div>
 
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-zinc-700 dark:text-zinc-300">Email</label>
+            <label htmlFor="email" className="block text-sm font-medium text-zinc-300">Email</label>
             <input
               type="email"
               id="email"
               required
-              className="mt-1 block w-full rounded-xl border border-zinc-400 bg-white px-4 py-2.5 text-sm text-zinc-900 placeholder-zinc-400 focus:border-zinc-500 focus:outline-none focus:ring-2 focus:ring-zinc-500/20 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:placeholder-zinc-500"
+              className="mt-1 block w-full rounded-xl border border-zinc-700 bg-zinc-900 px-4 py-2.5 text-sm text-zinc-100 placeholder-zinc-500 focus:border-zinc-500 focus:outline-none focus:ring-2 focus:ring-zinc-500/20"
               placeholder="you@example.com"
             />
           </div>
 
           <div>
-            <label htmlFor="message" className="block text-sm font-medium text-zinc-700 dark:text-zinc-300">Message</label>
+            <label htmlFor="message" className="block text-sm font-medium text-zinc-300">Message</label>
             <textarea
               id="message"
               required
               rows={5}
-              className="mt-1 block w-full rounded-xl border border-zinc-400 bg-white px-4 py-2.5 text-sm text-zinc-900 placeholder-zinc-400 focus:border-zinc-500 focus:outline-none focus:ring-2 focus:ring-zinc-500/20 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:placeholder-zinc-500"
+              className="mt-1 block w-full rounded-xl border border-zinc-700 bg-zinc-900 px-4 py-2.5 text-sm text-zinc-100 placeholder-zinc-500 focus:border-zinc-500 focus:outline-none focus:ring-2 focus:ring-zinc-500/20"
               placeholder="Your message..."
             />
           </div>
@@ -78,7 +78,7 @@ export function ContactSection() {
           </div>
         </form>
 
-        <div className="mt-12 text-center text-sm text-zinc-600">
+        <div className="mt-12 text-center text-sm text-zinc-400">
           <p>Or find me on</p>
           <div className="mt-4 flex flex-wrap justify-center gap-3">
             <SocialButton href="https://github.com/fiderana19" label="GitHub">

@@ -7,6 +7,8 @@ export interface Project {
   tags: string[]
   category: "frontend" | "backend" | "fullstack" | "devops" | "cloud"
   github?: string
+  githubFrontend?: string
+  githubBackend?: string
   demo?: string
   featured: boolean
   date: string

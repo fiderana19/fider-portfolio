@@ -5,12 +5,12 @@ const certifications = [
   {
     title: "SQL (Basic)",
     issuer: "HackerRank",
-    href: "https://www.hackerrank.com/certificates/...",
+    href: "https://www.hackerrank.com/certificates/1cc3d8b76334",
   },
   {
     title: "JavaScript (Basic)",
     issuer: "HackerRank",
-    href: "https://www.hackerrank.com/certificates/...",
+    href: "https://www.hackerrank.com/certificates/d7e331dea93a",
   },
 ]
 
@@ -28,7 +28,7 @@ export function Certifications() {
               <Card className="flex items-center gap-3 p-4">
                 <span className="text-2xl">🏅</span>
                 <div>
-                  <p className="font-medium text-zinc-900 dark:text-zinc-100">{cert.title}</p>
+                  <p className="font-medium text-zinc-100">{cert.title}</p>
                   <Badge variant="outline">{cert.issuer}</Badge>
                 </div>
               </Card>

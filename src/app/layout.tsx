@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
-import { ThemeProvider } from "@/components/ThemeProvider"
+
 import { Header } from "@/components/layout/Header"
 import { Footer } from "@/components/layout/Footer"
 import { JsonLd } from "@/components/seo/JsonLd"
@@ -32,14 +32,12 @@ export default function RootLayout({
         <JsonLd type="Person" />
         <JsonLd type="WebSite" />
       </head>
-      <body className="min-h-screen bg-white font-sans text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-100">
-        <ThemeProvider>
+      <body className="min-h-screen bg-zinc-950 font-sans text-zinc-100 antialiased">
           <div className="flex min-h-screen flex-col">
             <Header />
             <main className="flex-1">{children}</main>
             <Footer />
           </div>
-        </ThemeProvider>
       </body>
     </html>
   )
