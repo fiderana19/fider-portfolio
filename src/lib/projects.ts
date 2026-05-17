@@ -109,6 +109,20 @@ export const projects: Project[] = [
     featured: false,
     date: "2024-04",
   },
+  {
+    slug: "e-exam",
+    title: "Online Exam Application",
+    description: "Online examination platform with React and Laravel",
+    longDescription:
+      "Online examination platform allowing creation, management and participation in exams. Built with ReactJS for the frontend interface, Laravel for the backend API and MySQL for data storage.",
+    image: "/images/e-exam.jpg",
+    tags: ["ReactJS", "Laravel", "MySQL", "PHP"],
+    category: "fullstack",
+    githubFrontend: "https://github.com/fiderana19/E-examUI",
+    githubBackend: "https://github.com/fiderana19/back-eExam",
+    featured: true,
+    date: "2025-10",
+  },
 ]
 
 export function getProjectBySlug(slug: string): Project | undefined {
