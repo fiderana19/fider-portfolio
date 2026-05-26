@@ -2,6 +2,30 @@ import type { Project } from "@/types"
 
 export const projects: Project[] = [
   {
+    slug: "taskflow",
+    title: "TaskFlow AWS DevOps Infrastructure",
+    description: "AWS EC2 deployment with CI/CD, monitoring, and alerting pipeline",
+    longDescription:
+      "End-to-end DevOps infrastructure for a Task Management application deployed on AWS EC2. The project includes GitLab CI/CD pipelines for automated deployment of separated frontend and backend services, Docker containerization, and NGINX reverse proxy configuration. A full observability stack was implemented using AWS CloudWatch Agent, CloudWatch Metrics, Dashboards, and Alarms. Alerts are sent via AWS SNS email notifications. The system was validated through real incident simulations including CPU, memory, and disk stress testing to demonstrate production-grade monitoring and alerting capabilities.",
+    image: "/images/chelsea-squad.jpg",
+    tags: [
+      "AWS",
+      "EC2",
+      "CloudWatch",
+      "SNS",
+      "GitLab CI/CD",
+      "Docker",
+      "NGINX",
+      "Linux",
+      "Monitoring",
+      "DevOps"
+    ],
+    category: "devops",
+    github: "https://github.com/fiderana19/TaskFlowCICD",
+    featured: true,
+    date: "2026-05"
+  },
+  {
     slug: "chelsea-squad-app",
     title: "Chelsea Squad App",
     description: "GKE cluster setup and management with GitOps workflow",
