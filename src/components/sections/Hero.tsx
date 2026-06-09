@@ -74,8 +74,8 @@ export function Hero() {
           className="mt-10 flex flex-wrap items-center justify-center gap-3"
         >
           <Button href="#projects">View Projects</Button>
-          <Button href="/assets/cv/cv-fiderana-fullstack.pdf" variant="primary">CV Fullstack</Button>
-          <Button href="/assets/cv/cv-fiderana-devops.pdf" variant="primary">CV DevOps</Button>
+          <Button href="/assets/cv/cv-fiderana-fullstack.pdf" variant="primary">Fullstack Resume</Button>
+          <Button href="/assets/cv/cv-fiderana-devops.pdf" variant="primary">DevOps Resume</Button>
           <Button href="#contact" variant="ghost">Contact Me</Button>
           <span className="mx-1 h-6 w-px bg-zinc-700" />
           <SocialIcon href="https://github.com/fiderana19" label="GitHub">
